@@ -87,7 +87,7 @@ Dado un texto T y un patrón P, Escribir una función **`find_min_subtext`** que
 ```
 ## Problema #4 - Pares cruzado - Hash
 
-Dado un contenedor de pares ordenados, Escribir el template de función **`crisscross_pairs`** que busque para cada par ordenado `p1 (i,j)` el par ordenado `p2 (i,j)` y los retorne en un contenedor del mismo tipo que el original.
+Dado un contenedor de pares ordenados, Escribir el template de función **`crisscross_pairs`** que busque para cada par ordenado `p1 (i,j)` el par ordenado `p2 (j,i)` y  retorne ambos pares encontrados en un contenedor del mismo tipo que el original.
 
 ```cpp
     // Caso de uso #1
