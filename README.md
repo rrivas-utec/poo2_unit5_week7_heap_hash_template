@@ -65,7 +65,7 @@ Generar el template de función **`top_distance`** para que permita devolver val
 ```
 ## Problema #3 - Buscar subtexto minimo - Heap
 
-Dado un texto T y un patrón P, Escribir una función **`find_min_subtext`** que utilizando heaps ubique el mínimo subtexto S dentro de T de modo que incluya los caracteres del patrón siguiendo el mismo orden.
+Dado un texto 'T' y un patrón 'P', escribir una función **`find_min_subtext`** que, utilizando heaps, encuentre y retorne la porción del texto 'R' (contando espacios como caracter válido), de manera tal que los caracteres de P se encuentran en alguna parte de R, pero siguiendo el mismo orden de aparición de P. R tiene que ser la porción de texto que tenga el mínimo número de caracteres posible que cumpla con los requisitos.
 
 ```cpp
     // Caso de uso #1
